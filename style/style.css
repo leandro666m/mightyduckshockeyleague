@@ -8,32 +8,32 @@
 :root{
     --boton-verde: rgb(67, 192, 67);
 }
-
+body{
+    margin: 0px 50px;
+}
 header{
     display: block; 
-
     height: 350px; 
     overflow-y: hidden;
-    margin: 50px 50px 0px 50px;
 }
-
 h1{
-    display: inline;
+    display: inline-block;
     font-size: 40px;
     font-weight: bold;
-    padding: 0px 50px 50px 50px;
+    margin: 0px 50px;
+    text-align: left;
 }
-
 header img{
     display: block;
      width: 100%; 
 }
-
 nav{
     display: inline-block;
     position: relative;
-    top:7px;
+    top:7px;  
+    text-align: right; 
     z-index: 1;
+    width: 35%; 
 }
 
 nav a{
@@ -46,6 +46,7 @@ nav a{
      text-align: center;
 padding: 10px;
 box-shadow: 2px 2px rgba(0, 0, 0, 0.412);
+
 }
 
 .active{
@@ -59,26 +60,12 @@ a:hover{
 }
 
 
-/*--main--*/
-main{
-    margin: 0px 50px
-}
-section{
-    /* display: inline-block; */
-    /* border: solid black; */
-}
+
 section img{
     display: inline;
     height: 150px;
 }
 
-h2{
-    display: block;
-    border: 1px solid;
-    text-align: center;
-    padding: 5px;
-    
-}
 .logo{
     height: 70px;
     display: inline-block;
@@ -86,11 +73,35 @@ h2{
 }
 ul{
     display: inline-block;
-    margin: 40px;
+    list-style-type: none;
+    text-align: left;
+}
+ p{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    text-indent: 20px;
 }
 
 .img-events{
     height: 150px;
     display: inline-block;
-margin: 10px 30px;
+    margin: 10px 20px;
+}
+
+
+.events-title{
+    display: block;
+    border: 1px solid;
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.p-contact{
+    display: inline-block;
+    text-indent: 0px;
+}
+address{
+    display: inline-block;
+    margin-left: 10px;
 }
