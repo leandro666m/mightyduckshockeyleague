@@ -3,45 +3,41 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box; 
+/*     outline: 1px solid red; */
 }
 :root{
     --boton-verde: rgb(67, 192, 67);
 }
 body{
      margin: 0px 50px; 
-     display: flex;
 }
 header{ 
     display: flex; 
     flex-wrap: wrap; 
-    justify-content: space-around;
+    justify-content: space-around; 
 
     margin-top: 40px;
     height: 350px; 
     overflow-y: hidden;
 }
-.navigationbar{
-    background-color: aqua;
-}
+
 h1{ 
-    font-size: 2.5rem;
+    font-size: 2.5rem; 
 }
 nav{ 
     position: relative; 
     top:37px;  right: 50px;
-    z-index: 1;
+    z-index: 1; 
 }
-nav a{ 
+nav a{  
     text-decoration: none;
     color: white;
     background-color: rgb(64, 64, 224);
     height: 35px;
     width: auto;
-    text-align: center;
-    padding: 10px;
+    padding: 15px;
     box-shadow: 2px 2px rgba(0, 0, 0, 0.412);
 } 
-
 header img{
      width: 100%; 
 }
@@ -56,10 +52,10 @@ a:hover{
 
 
 
-section img{
+/* section>img{
     display: inline;
-    height: 150px;
-}
+    height: 250px;
+} */
 
 .logo{
     height: 70px;
