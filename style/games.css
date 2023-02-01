@@ -58,40 +58,30 @@ a:hover{
 }
 
 
-
-/* section>img{
-    display: inline;
-    height: 250px;
-} */
-
-.logo{
-    height: 70px;
-    display: inline-block;
-    margin: 40px;
+ .games{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-ul{
-    display: inline-block;
-    list-style-type: none;
-    text-align: left;
-}
- p{
-    margin-left: 10px;
-    margin-bottom: 10px;
-    text-indent: 20px;
-}
-
-.img-events{
-    height: 150px;
-    display: inline-block;
-    margin: 10px 20px;
-}
-
-.events-title{
+.events-title{ background-color: green;
     border: 1px solid;
     text-align: center;
     padding: 5px;
     margin-bottom: 20px;
 }
+.logo{ background-color: greenyellow;
+    height: 130px;
+    width: 130px;
+    display: inline-block;
+}
+
+ p{ background-color: aquamarine;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    text-indent: 20px;
+}
+
 
 .p-contact{
     display: inline-block;
@@ -100,5 +90,22 @@ ul{
 address{
     display: inline-block;
     margin-left: 10px;
+}
+table{
+    border: 4px saddlebrown solid;
+    border-collapse: collapse;
+    width: 85%;
+}
+
+th{
+    padding: 10px;
+    background-color: aquamarine;
+    border: 1px solid black;
+}
+
+td{
+    padding: 10px;
+    background-color: rgb(107, 223, 84);
+    border: 1px solid black;
 }
 
