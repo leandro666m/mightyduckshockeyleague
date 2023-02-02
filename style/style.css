@@ -44,8 +44,7 @@ nav a{
 } 
 header img{
     position: relative;
-    top: -100px;
-    
+    top: -150px;
      width: 100%; 
 }
 .active{
@@ -57,12 +56,6 @@ a:hover{
     color: white;
 }
 
-
-
-/* section>img{
-    display: inline;
-    height: 250px;
-} */
 
 .logo{
     height: 70px;
@@ -86,13 +79,13 @@ ul{
     margin: 10px 20px;
 }
 
-.events-title{
+.events-title{ 
     border: 1px solid;
     text-align: center;
     padding: 5px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    margin-top: 0px;
 }
-
 .p-contact{
     display: inline-block;
     text-indent: 0px;

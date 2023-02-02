@@ -1,62 +1,3 @@
-*{
-    /* font-family: "Comic Sans MS", "Comic Sans", cursive; */
-    /* margin: 0px; */
-    font-family: 'Roboto', sans-serif;
-    padding: 0px; 
-    box-sizing: border-box; 
-     /* outline: 1px solid red; */
-}
-:root{
-    --boton-verde: rgb(67, 192, 67);
-}
-body{
-     margin: 0px 150px; 
-}
-header{  background-color: aquamarine;
-    display: flex; 
-    flex-wrap: wrap; 
-    justify-content: space-between; 
-
-    /* margin-top: 40px; */
-    height: 350px; 
-    overflow-y: hidden;
-}
-
-h1{ 
-    font-size: 2.5rem; 
-    position: relative;
-    /* top: -25px; */
-    z-index: 1; 
-}
-nav{ 
-    position: relative; 
-    top:57px;  right: 50px;
-    z-index: 1; 
-}
-nav a{  
-    text-decoration: none;
-    color: white;
-    background-color: rgb(64, 64, 224);
-    width: auto;
-    padding: 10px;
-    box-shadow: 2px 2px rgba(0, 0, 0, 0.412);
-    border-radius: 10px;
-} 
-header img{
-    position: relative;
-    top: -100px;
-    
-     width: 100%; 
-}
-.active{
-    background-color: var(--boton-verde);
-    color: white;
-}
-a:hover{
-    background-color: var(--boton-verde);
-    color: white;
-}
-
 
  .games{
     display: flex;
@@ -64,48 +5,50 @@ a:hover{
     justify-content: center;
     align-items: center;
 }
-.events-title{ background-color: green;
+.events-title{ 
     border: 1px solid;
     text-align: center;
     padding: 5px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    margin-top: 0px;
 }
-.logo{ background-color: greenyellow;
+.logo{ 
     height: 130px;
     width: 130px;
     display: inline-block;
+    margin: 0px;
 }
 
- p{ background-color: aquamarine;
+ p{ 
     margin-left: 10px;
     margin-bottom: 10px;
     text-indent: 20px;
 }
-
-
 .p-contact{
     display: inline-block;
     text-indent: 0px;
 }
-address{
-    display: inline-block;
-    margin-left: 10px;
-}
-table{
-    border: 4px saddlebrown solid;
+
+table {
     border-collapse: collapse;
     width: 85%;
 }
 
-th{
-    padding: 10px;
-    background-color: aquamarine;
-    border: 1px solid black;
+ tr:nth-child(even) {
+    background-color: #f7ef81;
+  } 
+  tr {
+    border-bottom: 1px solid rgb(158, 158, 158);
+  }
+  tr:hover {
+    background-color: #D6EEEE;
 }
 
-td{
-    padding: 10px;
-    background-color: rgb(107, 223, 84);
-    border: 1px solid black;
+  footer{
+    background-color: #D6EEEE;
+    height: 4vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: small;
 }
-
