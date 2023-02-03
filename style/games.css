@@ -5,13 +5,7 @@
     justify-content: center;
     align-items: center;
 }
-.events-title{ 
-    border: 1px solid;
-    text-align: center;
-    padding: 5px;
-    margin-bottom: 10px;
-    margin-top: 0px;
-}
+
 .logo{ 
     height: 130px;
     width: 130px;
@@ -19,11 +13,7 @@
     margin: 0px;
 }
 
- p{ 
-    margin-left: 10px;
-    margin-bottom: 10px;
-    text-indent: 20px;
-}
+
 .p-contact{
     display: inline-block;
     text-indent: 0px;
@@ -32,10 +22,11 @@
 table {
     border-collapse: collapse;
     width: 85%;
+    text-align: center;
 }
 
  tr:nth-child(even) {
-    background-color: #f7ef81;
+    background-color: #fffde1;
   } 
   tr {
     border-bottom: 1px solid rgb(158, 158, 158);
@@ -44,11 +35,5 @@ table {
     background-color: #D6EEEE;
 }
 
-  footer{
-    background-color: #D6EEEE;
-    height: 4vh;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    font-size: small;
-}
+
+

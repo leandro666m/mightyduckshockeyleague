@@ -1,5 +1,4 @@
 *{
-    /* font-family: "Comic Sans MS", "Comic Sans", cursive; */
     /* margin: 0px; */
     font-family: 'Roboto', sans-serif;
     padding: 0px; 
@@ -11,31 +10,35 @@
 }
 body{
      margin: 0px 150px; 
-}
-header{  background-color: aquamarine;
-    display: flex; 
-    flex-wrap: wrap; 
-    justify-content: space-between; 
 
-    /* margin-top: 40px; */
-    height: 350px; 
+}
+header{ 
+    height: 250px; 
     overflow-y: hidden;
 }
-
-h1{ 
+.navbar{  
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-around; 
+}
+h1{  
+    font-family: "Comic Sans MS", "Comic Sans", cursive; 
     font-size: 2.5rem; 
-    position: relative;
-    /* top: -25px; */
     z-index: 1; 
+    color: beige;
 }
 nav{ 
-    position: relative; 
-    top:57px;  right: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
     z-index: 1; 
+    gap: 0.2rem;
 }
 nav a{  
     text-decoration: none;
-    color: white;
+    color: beige;
     background-color: rgb(64, 64, 224);
     width: auto;
     padding: 10px;
@@ -56,11 +59,28 @@ a:hover{
     color: white;
 }
 
-
-.logo{
-    height: 70px;
+.about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contact{
+    display: flex;
+     flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+}
+.contact > p{
+    margin-left: 0px;
+    margin-bottom: 0px;
+    text-indent: 0px;
+}
+.logo{ 
+    height: 130px;
+    width: 130px;
     display: inline-block;
-    margin: 40px;
+    margin: 0px;
 }
 ul{
     display: inline-block;
@@ -86,12 +106,19 @@ ul{
     margin-bottom: 10px;
     margin-top: 0px;
 }
-.p-contact{
-    display: inline-block;
-    text-indent: 0px;
+
+
+footer{
+    background-color: rgb(241, 215, 250);
+    min-height: 2vh;
+    position: sticky; bottom: 0px;
+    margin-top: 100px; 
 }
-address{
-    display: inline-block;
-    margin-left: 10px;
-}
+
+footer address{
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    font-size: small;
+} 
 
