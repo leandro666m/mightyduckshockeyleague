@@ -59,18 +59,13 @@ a:hover{
     color: white;
 }
 
-.about{
+.about, .contact, .rules{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.contact{
-    display: flex;
-     flex-direction: column; 
-    justify-content: center;
-    align-items: center;
-}
+
 .contact > p{
     margin-left: 0px;
     margin-bottom: 0px;
@@ -107,9 +102,9 @@ ul{
     margin-top: 0px;
 }
 
-
+/*------ footer ------*/
 footer{
-    background-color: rgb(241, 215, 250);
+    background-color: rgb(235, 246, 255);
     min-height: 2vh;
     position: sticky; bottom: 0px;
     margin-top: 100px; 
@@ -122,3 +117,15 @@ footer address{
     font-size: small;
 } 
 
+/*------ rules ------*/
+dt{
+    font-weight: bold; 
+}
+dd{  text-align: justify; 
+    margin-bottom: 10px;
+    text-indent: 2em;
+}
+ul{
+    margin: 0px 60px;
+    text-indent: 0em;
+}
