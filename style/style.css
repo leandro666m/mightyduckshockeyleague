@@ -1,44 +1,53 @@
 *{
-    font-family: "Comic Sans MS", "Comic Sans", cursive;
-    margin: 0px;
-    padding: 0px;
+    /* margin: 0px; */
+    font-family: 'Roboto', sans-serif;
+    padding: 0px; 
     box-sizing: border-box; 
-/*     outline: 1px solid red; */
+     /* outline: 1px solid red; */
 }
 :root{
     --boton-verde: rgb(67, 192, 67);
 }
 body{
-     margin: 0px 50px; 
+     margin: 0px 150px; 
+
 }
 header{ 
+    height: 250px; 
+    overflow-y: hidden;
+}
+.navbar{  
     display: flex; 
     flex-wrap: wrap; 
     justify-content: space-around; 
-
-    margin-top: 40px;
-    height: 350px; 
-    overflow-y: hidden;
 }
-
-h1{ 
+h1{  
+    font-family: "Comic Sans MS", "Comic Sans", cursive; 
     font-size: 2.5rem; 
+    z-index: 1; 
+    color: beige;
 }
 nav{ 
-    position: relative; 
-    top:37px;  right: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
     z-index: 1; 
+    gap: 0.2rem;
 }
 nav a{  
     text-decoration: none;
-    color: white;
+    color: beige;
     background-color: rgb(64, 64, 224);
-    height: 35px;
     width: auto;
-    padding: 15px;
+    padding: 10px;
     box-shadow: 2px 2px rgba(0, 0, 0, 0.412);
+    border-radius: 10px;
 } 
 header img{
+    position: relative;
+    top: -150px;
      width: 100%; 
 }
 .active{
@@ -50,17 +59,28 @@ a:hover{
     color: white;
 }
 
-
-
-/* section>img{
-    display: inline;
-    height: 250px;
-} */
-
-.logo{
-    height: 70px;
+.about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contact{
+    display: flex;
+     flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+}
+.contact > p{
+    margin-left: 0px;
+    margin-bottom: 0px;
+    text-indent: 0px;
+}
+.logo{ 
+    height: 130px;
+    width: 130px;
     display: inline-block;
-    margin: 40px;
+    margin: 0px;
 }
 ul{
     display: inline-block;
@@ -79,20 +99,26 @@ ul{
     margin: 10px 20px;
 }
 
-
-.events-title{
-    display: block;
+.events-title{ 
     border: 1px solid;
     text-align: center;
     padding: 5px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    margin-top: 0px;
 }
 
-.p-contact{
-    display: inline-block;
-    text-indent: 0px;
+
+footer{
+    background-color: rgb(241, 215, 250);
+    min-height: 2vh;
+    position: sticky; bottom: 0px;
+    margin-top: 100px; 
 }
-address{
-    display: inline-block;
-    margin-left: 10px;
-}
+
+footer address{
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    font-size: small;
+} 
+
