@@ -32,25 +32,25 @@
         <form action="./assets/show_data.html" method="get">
             <section>
                 <fieldset>
-                    <label>Player's first name: <input type="text" name="FirstName"> </label>
-                    <label> Last name: <input type="text" name="LastName"> </label>
+                    <label>Player's first name: <input class="inputtext" type="text" name="FirstName"> </label>
+                    <label> Last name: <input class="inputtext" type="text" name="LastName"> </label>
                 </fieldset>
 
                 <fieldset>
-                    <label>Street Address: <input type="text" name="streetaddress"> </label>
+                    <label>Street Address: <input class="inputtext"  type="text" name="streetaddress"> </label>
                 </fieldset>
 
                 <fieldset>
-                    <label>City: <input type="text" name="city"> </label>
-                    <label> Zip code: <input type="number" name="zipcode"> </label>
+                    <label>City: <input class="inputtext"  type="text" name="city"> </label>
+                    <label> Zip code: <input class="inputtext"  type="number" name="zipcode"> </label>
                 </fieldset>
 
                 <fieldset>
-                    <label>Birth date: <input type="date" name="birthdate"> </label>
+                    <label>Birth date: <input class="inputtext"  type="date" name="birthdate"> </label>
 
                     <label>Gender: </label>
-                        <label> Female<input type="radio" name="gender" value="F"> </label>
-                        <label> Male<input type="radio" name="gender" value="M"> </label>
+                    <label> Female<input type="radio" name="gender" value="F"> </label>
+                    <label> Male<input type="radio" name="gender" value="M"> </label>
                 </fieldset>
 
                 <fieldset>
@@ -102,10 +102,33 @@
             <section>
                 <h3>Permission to play</h3>
                 <p>
-                    I, the parent of guardian of the minor registrant, agree that the registrant and i will abide by all 
-                    rules of the Mighty Ducks hockey League
+                    I, the parent or guardian of the minor registrant,agree that
+                    the registrant and I will abide by all the rules of Mighty Ducks Hockey League (MDHL). In
+                    recognizing the
+                    possibility of physicall injury associated with hockey and in consideration for the "League"
+                    accepting the
+                    registrant for its hockey programs and activities,
+                    I hereby release, discharge,and or otherwhise, indemnify
+                    MDHL, their employees and associated personel and volunteers,
+                    including the facilities used for practices and games,
+                    against any claim by or on behalf of the
+                    registrant as a result
+                    of the registrant's participation in the program and/or
+                    being transported to or from MDHL
+                    sponsored activities,
+                    which transportation by signing below, I hereby agree and
+                    authorize the above. In addition, by signing
+                    below, I also
+                    aknowledge that I have read the cancellation policy and agree
+                    to its terms.
                 </p>
             </section>
+
+            <fieldset>
+                <label>Parent/Guardian signature: <input type="checkbox" name="signature"> </label>
+                <label>Date: <input class="inputtext"  type="text" name="date"> </label>
+            </fieldset>
+
             <input type="submit" value="Submit registration">
         </form>
 
@@ -114,7 +137,7 @@
 
     <footer>
         <address>
-            <a href="mailto:mdhl@chihockey.org">mdhl@chihockey.org</a>.
+            <p>e-mail: <a href="mailto:mdhl@chihockey.org">mdhl@chihockey.org</a>.</p>
             <p>Phone: <a href="tel:6306908132"> (630) 690-8132 </a> </p>
         </address>
     </footer>

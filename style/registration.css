@@ -4,16 +4,24 @@
         color: black;
 }
 fieldset{
-    margin: 0px 0px;
+    margin: 10px 0px;
     padding: 5px;
     display: flex; justify-content: flex-start; align-items: center; 
     border: none;
 }
 section{
+    max-width: 800px;
     margin: 20px 0px;
 }
 label{
     margin-left: 10px;
+}
+.inputtext{
+height: 25px; 
+    border-color: rgb(187, 187, 187);
+    border-radius: 5px;
+    background-color: azure;
+    color: black;
 }
 .section2>fieldset{
     margin: 20px 0px;

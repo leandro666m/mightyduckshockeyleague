@@ -71,8 +71,9 @@ main {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
+    min-height: 800px;
 }
 
 .about,
@@ -188,3 +189,25 @@ tr {
 tr:hover {
     background-color: #D6EEEE;
 }
+
+.info p , address{
+    text-indent: 0px;
+    margin: 10px 100px;
+}
+.contacts{  background-color: rgb(250, 255, 224); 
+display: flex;
+justify-content: space-around;
+align-items: center;
+font-size: small;
+}
+
+#mapaajk, #greenbay, #hay, #mph, #south{
+display:none;
+}
+
+#mapaajk:target, #greenbay:target, #hay:target, #mph:target, #south:target  {
+
+    display: block;
+    box-shadow: 10px 10px 15px #888888;
+    margin-top: 40px;
+    }
