@@ -28,23 +28,84 @@
     </header>
 
     <main>
+        <h1 class="form-title">Registration Form</h1>
         <form action="./assets/show_data.html" method="get">
-            <fieldset>
-                <label for="name"> Player's first name: </label>
-                <input type="text" name="FirstName" id="name" value=""> </label>
-                <label for="lastname"> Last name: </label>
-                <input type="text" name="LastName" id="lastname" value=""> </label>
-            </fieldset>
+            <section>
+                <fieldset>
+                    <label>Player's first name: <input type="text" name="FirstName"> </label>
+                    <label> Last name: <input type="text" name="LastName"> </label>
+                </fieldset>
+
+                <fieldset>
+                    <label>Street Address: <input type="text" name="streetaddress"> </label>
+                </fieldset>
+
+                <fieldset>
+                    <label>City: <input type="text" name="city"> </label>
+                    <label> Zip code: <input type="number" name="zipcode"> </label>
+                </fieldset>
+
+                <fieldset>
+                    <label>Birth date: <input type="date" name="birthdate"> </label>
+
+                    <label>Gender: </label>
+                        <label> Female<input type="radio" name="gender" value="F"> </label>
+                        <label> Male<input type="radio" name="gender" value="M"> </label>
+                </fieldset>
+
+                <fieldset>
+                    <label>Grade:</label>
+                    <label> <input type="radio" name="grade" value="ps">Pre-school</label>
+                    <label> <input type="radio" name="grade" value="1st">1<sup>st</sup> </label>
+                    <label> <input type="radio" name="grade" value="2nd">2<sup>nd</sup> </label>
+                    <label> <input type="radio" name="grade" value="3rd">3<sup>rd</sup> </label>
+                    <label> <input type="radio" name="grade" value="4th">4<sup>th</sup> </label>
+                    <label> <input type="radio" name="grade" value="5th">5<sup>th</sup> </label>
+                </fieldset>
+
+            </section>
 
 
-            <fieldset>
-                <legend>Which elementary school do you live near?</legend>
-                <label>
-                    Amarillo
-                    <input type="checkbox" name="color1" value="Amarillo">
-                </label>
-            </fieldset>
+            <section class="section2">
+                <strong> Which elementary school do you live near? </strong>
+                <fieldset>
+                    <legend> <strong> Closest school: </strong></legend>
+                    <label><input type="radio" name="closestschool" value="ajk"> AJ Katzenmaier </label>
+                    <label> <input type="radio" name="closestschool" value="gb"> Greenbay</label>
+                    <label> <input type="radio" name="closestschool" value="hy"> Howard A Yeager</label>
 
+                    <label> <input type="radio" name="closestschool" value="mh"> Marjorie P Hart</label>
+                    <label> <input type="radio" name="closestschool" value="ne"> North Elementary</label>
+                    <label> <input type="radio" name="closestschool" value="se"> South Elementary</label>
+                </fieldset>
+
+                <fieldset>
+                    <legend> <strong> What position(s) do you normally play? (check all that apply) </strong> </legend>
+                    <label><input type="checkbox" name="closestschool" value="fw"> Forward </label>
+                    <label> <input type="checkbox" name="closestschool" value="def"> Defense</label>
+                    <label> <input type="checkbox" name="closestschool" value="md"> Midfield</label>
+                    <label> <input type="checkbox" name="closestschool" value="gk"> Goalkeeper</label>
+                </fieldset>
+
+                <fieldset>
+                    <legend> <strong> Uniform size: </strong> </legend>
+                    <label><input type="radio" name="closestschool" value="ys"> Youth small </label>
+                    <label> <input type="radio" name="closestschool" value="ym"> Youth Medium</label>
+                    <label> <input type="radio" name="closestschool" value="yl"> Youth Large</label>
+                    <label> <input type="radio" name="closestschool" value="s"> Small</label>
+                    <label> <input type="radio" name="closestschool" value="m"> Medium</label>
+                    <label> <input type="radio" name="closestschool" value="l"> Large</label>
+                    <label> <input type="radio" name="closestschool" value="xl"> Extra Large</label>
+                </fieldset>
+            </section>
+
+            <section>
+                <h3>Permission to play</h3>
+                <p>
+                    I, the parent of guardian of the minor registrant, agree that the registrant and i will abide by all 
+                    rules of the Mighty Ducks hockey League
+                </p>
+            </section>
             <input type="submit" value="Submit registration">
         </form>
 
